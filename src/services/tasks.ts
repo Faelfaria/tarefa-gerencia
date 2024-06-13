@@ -11,7 +11,7 @@ setupDatabase()
   });
 
 // Função para inserir uma nova tarefa
-export const createTask = async (title: string, description: string, categoryColor: string) => {
+export const createTask = async (title, description, categoryColor) => {
   try {
     const db = await SQLite.openDatabaseAsync('tasks.db');
     const result = await db.runAsync(

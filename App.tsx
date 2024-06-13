@@ -17,7 +17,7 @@ const App = () => {
     <PaperProvider>
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="Home" component={HomeScreen} />
+          <Stack.Screen name="Gerenciador de Tarefas" component={HomeScreen} />
           <Stack.Screen name="CreateTask" component={CreateScreen} />
           <Stack.Screen name="TaskDetail" component={DetailScreen} />
         </Stack.Navigator>
