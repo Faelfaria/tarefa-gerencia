@@ -6,7 +6,7 @@ import { createTask } from '../../services/tasks';
 const CreateScreen = ({ navigation }) => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
-  const [categoryColor, setCategoryColor] = useState('green'); // Define a cor padrão como verde
+  const [categoryColor, setCategoryColor] = useState('green');
 
   // Função para salvar uma nova tarefa
   const handleSave = async () => {

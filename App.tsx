@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 
 const App = () => {
   useEffect(() => {
-    // Configura o banco de dados quando o aplicativo é carregado
+    
     setupDatabase();
   }, []);
 
